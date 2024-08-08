@@ -1,5 +1,15 @@
+import { Route, Router, Routes } from "react-router-dom"
+import Home from "./routes/Home"
+
 function App() {
-  return <>Ready to code with Mantine, a router would be nice in there 😺</>
+  return <>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/meniu" element={<Meniu />} />
+      <Route path="/galerie" element={<Galerie />} />
+      <Route path="/contact" element={<Contact />} />
+    </Routes>
+  </>
 }
 
 export default App
