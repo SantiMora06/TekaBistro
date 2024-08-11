@@ -1,5 +1,8 @@
+import BackButton from "../components/BackButton";
+
 const Meniu = () => {
-    return (<>Menu</>);
+    return (<>Menu
+        <BackButton /></>);
 }
 
 export default Meniu;

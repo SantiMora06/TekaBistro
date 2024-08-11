@@ -4,6 +4,7 @@
     display: flex;
     min-height: 50vh;
     margin: 0;
+    flex-grow: 2;
 }
 
 .intro {
@@ -54,14 +55,15 @@ h3 {
 }
 
 .photo1 {
-    height: 160px;
+    height: 130px;
 }
 
 .para {
     padding-top: 0.5em;
-    flex-direction: column;
+    flex-direction: row;
     width: 60%;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .pg {

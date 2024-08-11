@@ -5,10 +5,11 @@ import Galerie from "./routes/Galerie"
 import Meniu from "./routes/Meniu"
 import Contact from "./routes/Contact"
 import DespreNoi from "./routes/DespreNoi"
+import Header from "./components/Header"
 
 function App() {
   return <>
-
+    <Header />
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/meniu" element={<Meniu />} />
