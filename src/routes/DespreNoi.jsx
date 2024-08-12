@@ -25,7 +25,7 @@ const DespreNoi = () => {
             </section>
             <section className={classes.subsection}>
                 <p className={classes.p}>
-                    Comandă pizza cu transport la domiciliu pe raza orașului Tîrgu Mureș. Comanda minimă este de 15 Ron. Comenzile sunt acceptate numai daca sunt comunicate prin telefon pâna la ora 23:00.
+                    Comandă pizza cu transport la domiciliu pe raza orașului Tîrgu Mureș. Comanda minimă este de 30 Ron. Comenzile sunt acceptate numai daca sunt comunicate prin telefon pâna la ora 23:30.
                 </p>
                 <img className={classes.image} src={p3} alt="Way to the upper restaurant" />
             </section>

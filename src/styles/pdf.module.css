@@ -1,0 +1,10 @@
+iframe {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+
+.frame {
+    padding: 0 18.5%;
+}

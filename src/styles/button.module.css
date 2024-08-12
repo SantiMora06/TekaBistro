@@ -1,14 +1,21 @@
 .container {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     padding-top: 2em;
 }
 
 .button {
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     padding: 1em;
-    background-color: black;
+    width: 10%;
+    background-color: rgba(255, 255, 255, 0.519);
+    border: 2px solid white;
+    color: black;
+}
+
+button {
+    cursor: pointer;
 }

@@ -1,7 +1,9 @@
 import BackButton from "../components/BackButton";
+import Galery from "../components/Galery";
 
 const Galerie = () => {
-    return (<>Galerie
+    return (<>
+        <Galery />
         <BackButton /></>);
 }
 
