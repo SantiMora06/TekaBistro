@@ -1,7 +1,9 @@
 import BackButton from "../components/BackButton";
+import ContactForm from "../components/ContactForm";
 
 const Contact = () => {
-    return (<>Contact Page
+    return (<>
+        <ContactForm />
         <BackButton /></>);
 }
 

@@ -1,0 +1,18 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    padding: 1% 20%;
+    justify-content: center;
+}
+
+input,
+textarea {
+    margin: 1% 0;
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+}
