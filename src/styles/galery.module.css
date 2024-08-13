@@ -18,3 +18,49 @@
     opacity: 1;
     filter: contrast(120%);
 }
+
+@media (max-width: 768px) and (min-width:425px) {
+    .images {
+        padding: 5%;
+        display: flex;
+        width: 100%;
+        height: 300px;
+    }
+
+    .images img {
+        width: 0;
+        flex-grow: 1;
+        object-fit: cover;
+        opacity: 0.8;
+        transition: .8s ease;
+    }
+
+    .images img:hover {
+        width: 150px;
+        opacity: 1;
+        filter: contrast(120%);
+    }
+}
+
+@media (max-width: 425px) {
+    .images {
+        padding: 5%;
+        display: flex;
+        width: 100%;
+        height: 180px;
+    }
+
+    .images img {
+        width: 0;
+        flex-grow: 1;
+        object-fit: cover;
+        opacity: 0.8;
+        transition: .8s ease;
+    }
+
+    .images img:hover {
+        width: 100px;
+        opacity: 1;
+        filter: contrast(120%);
+    }
+}

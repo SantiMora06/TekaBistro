@@ -24,3 +24,31 @@
     padding: 2% 2%;
     margin: 0 18.5% 0 0;
 }
+
+
+@media (max-width: 768px) and (min-width:425px) {
+
+    .image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 150px;
+        padding: 2% 2%;
+        margin: 0 18.5% 0 0;
+    }
+
+}
+
+
+@media (max-width: 425px) {
+
+    .image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80px;
+        padding: 2% 2%;
+        margin: 0 18.5% 0 0;
+    }
+
+}

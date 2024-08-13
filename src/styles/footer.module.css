@@ -12,16 +12,53 @@
 
 .paragraph {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-content: center;
     width: 100%;
-    justify-content: space-around;
-    margin-bottom: 5%;
+    align-items: center;
+    margin-bottom: 8%;
+    font-size: 1em;
 }
 
 .paragraph a {
     text-decoration: none;
     color: black;
-    justify-content: start;
-    width: 15%;
+    width: 50%;
+}
+
+@media (max-width: 768px) and (min-width: 425px) {
+    .paragraph {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        width: 100%;
+        font-size: 0.8em;
+        margin-bottom: 10%;
+    }
+
+    .paragraph a {
+        text-decoration: none;
+        color: black;
+        width: 50%;
+    }
+}
+
+@media (max-width: 425px) {
+    .paragraph {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        width: 100%;
+        justify-content: space-around;
+        margin-bottom: 10%;
+        font-size: 0.4em;
+    }
+
+    .paragraph a {
+        text-decoration: none;
+        color: black;
+        width: 50%;
+    }
 }

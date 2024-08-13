@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding-top: 2em;
+    padding: 2em 0;
 }
 
 .button {
@@ -18,4 +18,19 @@
 
 button {
     cursor: pointer;
+}
+
+@media (max-width: 768px) and (min-width:425px) {
+    .button {
+        font-size: 1em;
+        width: 15%;
+    }
+}
+
+
+@media (max-width: 425px) {
+    .button {
+        font-size: .75em;
+        width: 20%;
+    }
 }
